@@ -16,7 +16,7 @@
             <!--</div>-->
           <!--</div>-->
 
-          <img class="web-image" :src="'static/img/' + project.image" />{{project.image}}
+          <img class="web-image" :src="'static/img/' + project.image" v-on:click="next(project)"/>{{project.image}}
 
       </div>
     </div>
@@ -66,7 +66,14 @@ export default {
   beforeDestroy () {
     let self = this
     clearInterval(self.interval)
+  },
+  methods: {
+    next: function (project, event) {
+      project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
+      project.image = project.images[project.index]
+    }
   }
+
 }
 </script>
 
