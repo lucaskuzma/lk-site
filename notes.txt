@@ -1,0 +1,11 @@
+      {
+        'name': '',
+        'agency': '',
+        'details': '',
+        'images': [
+          '',
+          '',
+          ''
+        ],
+        'image': ''
+      },
