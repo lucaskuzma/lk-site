@@ -3,6 +3,10 @@
     <div>
       <p>Lucas Kuzma is an itinerant <a title="The Strange Agency" href="http://the.strange.agency" target="_blank">application programmer</a> and <a title="Strange Software" href="http://strange.software">creative coder</a></p>
 
+      <router-link class="" to="/web">
+            web
+      </router-link>
+
       <p>with a <a href="http://lucaskuzma.github.io/docs/cv/kuzma.html">background</a> in computer science, media art, music, and audio analysis, synthesis, and visualization</p>
 
       <p>experience in <a title="LinkedIn" href="https://www.linkedin.com/in/lucaskuzma" target="_blank">mobile, web, e-commerce, dev ops</a>, <a title="An Interface for Sequencing with Concatenative Sound Synthesis" href="http://mtg.upf.edu/node/2190" target="_blank">research</a> and <a title="USC" href="https://cinema.usc.edu/directories/profile.cfm?id=33652" target="_blank">education</a></p>
