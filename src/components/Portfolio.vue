@@ -54,14 +54,7 @@ export default {
       }
     }
 
-    self.interval = setInterval(function () {
-      for (let project of self.$data.projects) {
-        if (project.images) {
-          project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
-          project.image = project.images[project.index]
-        }
-      }
-    }, 5000)
+    this.setTimer()
   },
   beforeDestroy () {
     let self = this
@@ -71,6 +64,22 @@ export default {
     next: function (project, event) {
       project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
       project.image = project.images[project.index]
+      this.setTimer()
+    },
+    setTimer: function () {
+      let self = this
+      clearInterval(self.interval)
+      self.interval = setInterval(function () {
+        self.cycleImages()
+      }, 5000)
+    },
+    cycleImages: function () {
+      for (let project of this.$data.projects) {
+        if (project.images) {
+          project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
+          project.image = project.images[project.index]
+        }
+      }
     }
   }
 
