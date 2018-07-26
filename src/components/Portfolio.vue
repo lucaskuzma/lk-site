@@ -16,7 +16,7 @@
             <!--</div>-->
           <!--</div>-->
 
-          <img class="web-image" :src="'static/img/' + project.image" v-on:click="next(project)"/>{{project.image}}
+          <img class="web-image" :src="'static/img/' + project.image" v-on:click="next(project)"/>
 
       </div>
     </div>
@@ -80,7 +80,10 @@ export default {
 <style scoped>
 
 .web-image {
-  height: 200px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .agency {
