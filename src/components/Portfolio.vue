@@ -28,6 +28,17 @@ export default {
   data: () => ({
     projects: [
       {
+        'name': 'EZ Tax 101',
+        'agency': 'The Strange Agency',
+        'details': 'Responsive site for tax startup. React front-end with Django back-end hosted on Heroku. Numerous integrations, including Twilio, Amazon SES, and Amazon S3. Responsible for all architecture, dev-ops, application programming, and design direction.',
+        'images': [
+          'tax-1.jpeg',
+          'tax-2.jpeg',
+          'tax-3.jpeg'
+        ],
+        'image': ''
+      },
+      {
         'name': 'Cocoon',
         'agency': 'theLab',
         'details': 'Promotional site with built-in configuration and commerce for Cocoon by Sealy. Containerized Django and Oscar back-end with Backbone front-end. Handled front- and back-end ongoing programming tasks and maintenance.',
@@ -69,17 +80,6 @@ export default {
           'pb-1.jpeg',
           'pb-2.jpeg',
           'pb-3.jpeg'
-        ],
-        'image': ''
-      },
-      {
-        'name': 'EZ Tax 101',
-        'agency': 'The Strange Agency',
-        'details': 'Responsive site for tax startup. React front-end with Django back-end hosted on Heroku. Numerous integrations, including Twilio, Amazon SES, and Amazon S3. Responsible for all architecture, dev-ops, application programming, and design direction.',
-        'images': [
-          'tax-1.jpeg',
-          'tax-2.jpeg',
-          'tax-3.jpeg'
         ],
         'image': ''
       },
