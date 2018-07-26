@@ -7,25 +7,21 @@
       <router-link v-if="section != 'web'" to="/web">web</router-link>
       <span v-else>web</span>
 
-      <router-link v-if="section != 'ios'" to="/ios">iOS</router-link>
-      <span v-else>iOS</span>
+      <router-link v-if="section != 'mobile'" to="/mobile">mobile</router-link>
+      <span v-else>mobile</span>
     </p>
 
     <p>{{section}}</p>
     <div v-if="projects && projects.length">
       <div class="project" v-for="project of projects" :key="project.id">
-        <p>
-          <p class="name title">{{ project.name }}
-          <span class="agency title">Agency: {{ project.agency }}</span></p>
+
+        <div v-if="section == project.type">
+          <p class="name title">{{ project.name }}<span class="agency title">Agency: {{ project.agency }}</span></p>
+
           <p class="details">{{ project.details }}</p>
 
-          <!--<div v-if="project.images && project.images.length">-->
-            <!--<div v-for="image of project.images" :key="image.id">-->
-              <!--<img class="web-image" :src="'static/img/' + image" />{{image}}-->
-            <!--</div>-->
-          <!--</div>-->
-
           <img class="web-image" :src="'static/img/' + project.image" v-on:click="next(project)"/>
+        </div>
 
       </div>
     </div>
@@ -40,6 +36,7 @@ export default {
       {
         'name': 'EZ Tax 101',
         'agency': 'The Strange Agency',
+        'type': 'web',
         'details': 'Responsive site for tax startup. React front-end with Django back-end hosted on Heroku. Numerous integrations, including Twilio, Amazon SES, and Amazon S3. Responsible for all architecture, dev-ops, application programming, and design direction.',
         'images': [
           'tax-1.jpeg',
@@ -51,6 +48,7 @@ export default {
       {
         'name': 'Cocoon',
         'agency': 'theLab',
+        'type': 'mobile',
         'details': 'Promotional site with built-in configuration and commerce for Cocoon by Sealy. Containerized Django and Oscar back-end with Backbone front-end. Handled front- and back-end ongoing programming tasks and maintenance.',
         'images': [
           'cocoon-1.jpeg',

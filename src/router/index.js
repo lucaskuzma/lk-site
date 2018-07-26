@@ -18,9 +18,9 @@ export default new Router({
       props: { section: 'web' }
     },
     {
-      path: '/ios',
+      path: '/mobile',
       component: Portfolio,
-      props: { section: 'ios' }
+      props: { section: 'mobile' }
     }
   ]
 })
