@@ -3,9 +3,7 @@
     <div>
       <p>Lucas Kuzma is an itinerant <a title="The Strange Agency" href="http://the.strange.agency" target="_blank">application programmer</a> and <a title="Strange Software" href="http://strange.software">creative coder</a></p>
 
-      <router-link class="" to="/web">
-            web
-      </router-link>
+      <p>focused on <router-link class="" to="/web">web</router-link> and iOS</p>
 
       <p>with a <a href="http://lucaskuzma.github.io/docs/cv/kuzma.html">background</a> in computer science, media art, music, and audio analysis, synthesis, and visualization</p>
 

@@ -1,13 +1,13 @@
 <template>
   <div>
-    <router-link class="" to="/">
-      home
-    </router-link>
+
+    <p><router-link class="" to="/">home</router-link> web iOS</p>
+
     <div v-if="projects && projects.length">
       <div v-for="project of projects" :key="project.id">
-        <div>
-          <p class="name">{{ project.name }}</p>
-          <p class="agency">{{ project.agency }}</p>
+        <p>
+          <p class="name title">{{ project.name }}
+          <span class="agency title">Agency: {{ project.agency }}</span></p>
           <p class="details">{{ project.details }}</p>
 
           <div v-if="project.images && project.images.length">
@@ -51,4 +51,13 @@ module.exports = {
   height: 200px;
 }
 
+.agency {
+  float: right;
+  padding-right: 24px;
+}
+
+.details {
+  padding-right: 24px;
+  text-align:justify;
+}
 </style>

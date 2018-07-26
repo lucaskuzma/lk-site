@@ -12,19 +12,22 @@ export default {
 
 <style>
 #app {
-  font-family: 'Josefin', Helvetica, Arial, sans-serif;
   color: #000;
 }
 
 p {
     font-family: 'Josefin Slab', serif;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 28px;
+    line-height: 42px;
     padding-left: 24px;
 }
 
 a {
     color: #08c;
     text-decoration: none;
+}
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
 }
 </style>
