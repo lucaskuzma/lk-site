@@ -1,8 +1,17 @@
 <template>
   <div>
 
-    <p><router-link class="" to="/">home</router-link> web iOS</p>
+    <p>
+      <router-link class="" to="/">home</router-link>
 
+      <router-link v-if="section != 'web'" to="/web">web</router-link>
+      <span v-else>web</span>
+
+      <router-link v-if="section != 'ios'" to="/ios">iOS</router-link>
+      <span v-else>iOS</span>
+    </p>
+
+    <p>{{section}}</p>
     <div v-if="projects && projects.length">
       <div class="project" v-for="project of projects" :key="project.id">
         <p>
@@ -25,6 +34,7 @@
 
 <script>
 export default {
+  props: ['section'],
   data: () => ({
     projects: [
       {

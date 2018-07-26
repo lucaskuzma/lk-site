@@ -14,8 +14,13 @@ export default new Router({
     },
     {
       path: '/web',
-      name: 'Portfolio',
-      component: Portfolio
+      component: Portfolio,
+      props: { section: 'web' }
+    },
+    {
+      path: '/ios',
+      component: Portfolio,
+      props: { section: 'ios' }
     }
   ]
 })
