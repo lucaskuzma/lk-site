@@ -11,17 +11,14 @@
       <span v-else>mobile</span>
     </p>
 
-    <p>{{section}}</p>
     <div v-if="projects && projects.length">
-      <div class="project" v-for="project of projects" :key="project.id">
+      <div class="project" v-for="project of filteredProjects(section)" :key="project.id">
 
-        <div v-if="section == project.type">
-          <p class="name title">{{ project.name }}<span class="agency title">Agency: {{ project.agency }}</span></p>
+        <p class="name title">{{ project.name }}<span class="agency title">Agency: {{ project.agency }}</span></p>
 
-          <p class="details">{{ project.details }}</p>
+        <p class="details">{{ project.details }}</p>
 
-          <img :class="'image ' + project.device + '-' + project.orientation" :src="'static/img/' + project.image" v-on:click="next(project)"/>
-        </div>
+        <img :class="'image ' + project.device + '-' + project.orientation" :src="'static/img/' + project.image" v-on:click="next(project)"/>
 
       </div>
     </div>
@@ -262,7 +259,14 @@ export default {
     let self = this
     clearInterval(self.interval)
   },
+  computed: {
+  },
   methods: {
+    filteredProjects: function (section) {
+      return this.$data.projects.filter(function (p) {
+        return p.type === section
+      })
+    },
     next: function (project, event) {
       project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
       project.image = project.images[project.index]
