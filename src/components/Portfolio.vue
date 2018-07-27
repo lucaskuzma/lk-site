@@ -48,7 +48,7 @@ export default {
       {
         'name': 'Cocoon',
         'agency': 'theLab',
-        'type': 'mobile',
+        'type': 'web',
         'details': 'Promotional site with built-in configuration and commerce for Cocoon by Sealy. Containerized Django and Oscar back-end with Backbone front-end. Handled front- and back-end ongoing programming tasks and maintenance.',
         'images': [
           'cocoon-1.jpeg',
@@ -60,6 +60,7 @@ export default {
       {
         'name': 'K-Swiss',
         'agency': 'The Strange Agency',
+        'type': 'web',
         'details': 'International apparel store. Magento back-end with a custom Kohana front-end. Hosted on AWS in the US and Europe. Handled all architecture, dev-ops, ERP integrations, application programming, and maintenance. Managed a team of 4 developers and a designer.',
         'images': [
           'kswiss-1.jpeg',
@@ -71,6 +72,7 @@ export default {
       {
         'name': 'Kidbrands',
         'agency': 'theLab',
+        'type': 'web',
         'details': 'Four retail stores and a B2B corporate site for the Kidbrands group of children’s product companies. Magento back-end with a custom Flask front-end and a Mezzanine CMS. Hosted on AWS. Lead architect and engineer for all dev-ops, integrations, application programming, and maintenance.',
         'images': [
           'kb-cocalo.jpeg',
@@ -83,6 +85,7 @@ export default {
       {
         'name': 'Palladium Boots',
         'agency': 'The Strange Agency',
+        'type': 'web',
         'details': 'International Magento store with an integrated Drupal CMS. Hosted on AWS in the US and Europe. Handled all dev-ops, ERP integrations, application programming, and maintenance.',
         'images': [
           'pb-1.jpeg',
@@ -94,6 +97,7 @@ export default {
       {
         'name': 'Swoon Reads',
         'agency': 'theLab',
+        'type': 'web',
         'details': 'Community web site for young authors. Containerized Django back-end with React front-end and Wagtail CMS. Handled front- and back-end ongoing programming tasks and maintenance.',
         'images': [
           'swoon-1.jpeg',
@@ -157,6 +161,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  cursor:pointer;
 }
 
 .agency {
