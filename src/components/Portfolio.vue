@@ -322,11 +322,9 @@ export default {
 
 .agency {
   float: right;
-  padding-right: 24px;
 }
 
 .details {
-  padding-right: 24px;
   text-align:justify;
 }
 </style>
