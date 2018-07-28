@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   color: #000;
 }
@@ -32,4 +33,19 @@ a {
 .title {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+  p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .App-outputArea {
+    display: none;
+  }
+
+}
+
 </style>
