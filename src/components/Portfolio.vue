@@ -18,7 +18,7 @@
 
         <p class="details">{{ project.details }}</p>
 
-        <ImageSet :class="project.device + '-' + project.orientation" :images="project.images" />
+        <ImageSet :device="project.device" :orientation="project.orientation" :images="project.images" />
 
       </div>
     </div>
@@ -278,21 +278,6 @@ export default {
 
 .project {
   padding-top: 24px;
-}
-
-.browser-undefined {
-  width: 80%;
-}
-
-.tablet-landscape {
-  width: 80%;
-}
-
-.tablet-portrait {
-  width: 70%;
-}
-.phone-portrait {
-  width: 40%;
 }
 
 .agency {

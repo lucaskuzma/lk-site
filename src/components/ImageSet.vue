@@ -1,13 +1,11 @@
 <template>
-  <div class="image">
     <!-- <img :class="'image ' + project.device + '-' + project.orientation" :src="'static/img/' + project.image" v-on:click="next(project)"/> -->
-    <img :src="'static/img/' + image" v-on:click="next()"/>
-  </div>
+  <img :class="'image ' + device + '-' + orientation" :src="'static/img/' + image" v-on:click="next()"/>
 </template>
 
 <script>
 export default {
-  props: ['images'],
+  props: ['images', 'device', 'orientation'],
   data: () => ({
     image: undefined
   }),
@@ -49,5 +47,21 @@ export default {
   margin-right: auto;
   display: block;
   cursor: pointer;
+}
+
+.browser-undefined {
+  width: 80%;
+}
+
+.tablet-landscape {
+  width: 80%;
+}
+
+.tablet-portrait {
+  width: 70%;
+}
+
+.phone-portrait {
+  width: 40%;
 }
 </style>
