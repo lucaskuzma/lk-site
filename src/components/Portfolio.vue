@@ -110,7 +110,21 @@ export default {
         'image': ''
       },
       {
-        'name': 'Victoria’s Secret Brand Guide',
+        'name': 'Soup',
+        'agency': 'The Strange Agency',
+        'type': 'mobile',
+        'device': 'tablet',
+        'orientation': 'landscape',
+        'details': 'Inspired by the oil can delays of the 60s, Soup brings you a virtual fluid that you can record onto, slosh around, and play back from. You can use it as a unique delay effect or more like a granular synthesizer, concocting your own wholly novel sounds.',
+        'images': [
+          'soup_1.jpg',
+          'soup_2.jpg',
+          'soup_3.jpg'
+        ],
+        'image': ''
+      },
+      {
+        'name': 'Victoria’s Secret Guide',
         'agency': 'theLab',
         'type': 'mobile',
         'device': 'tablet',
@@ -221,7 +235,7 @@ export default {
         'type': 'mobile',
         'device': 'tablet',
         'orientation': 'portrait',
-        'details': 'Donut lets you record loops in two dimensions. You can use it like a phrase looper, by recording horizontally while using the step controls to step through vertical recording position. You can use it as a realtime processor. You can record and playback at completely differently speeds. You can even record backwards! You can record and playback diagonally across the Donut surface, creating glitchy staccato sounds. You can record and playback with multiple heads, recording or playing multiple positions at once.',
+        'details': 'Donut lets you record loops in two dimensions. You can use it like a phrase looper, by recording horizontally while using the step controls to step through vertical recording position. You can record and playback at completely differently speeds. You can even record backwards! You can record and playback diagonally across the Donut surface, creating glitchy staccato sounds. You can record and playback with multiple heads, recording or playing multiple positions at once.',
         'images': [
           'donut_1.jpg',
           'donut_2.jpg'
