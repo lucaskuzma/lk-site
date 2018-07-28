@@ -2,7 +2,7 @@
   <div>
 
     <p>
-      <router-link class="" to="/">home</router-link>
+      <router-link to="/">home</router-link>
 
       <router-link v-if="section != 'web'" to="/web">web</router-link>
       <span v-else>web</span>
@@ -18,7 +18,7 @@
 
         <p class="details">{{ project.details }}</p>
 
-        <img :class="'image ' + project.device + '-' + project.orientation" :src="'static/img/' + project.image" v-on:click="next(project)"/>
+        <ImageSet :class="project.device + '-' + project.orientation" :images="project.images" />
 
       </div>
     </div>
@@ -26,8 +26,13 @@
 </template>
 
 <script>
+import ImageSet from './ImageSet.vue'
+
 export default {
   props: ['section'],
+  components: {
+    'ImageSet': ImageSet
+  },
   data: () => ({
     projects: [
       {
@@ -121,6 +126,8 @@ export default {
           'soup_2.jpg',
           'soup_3.jpg'
         ],
+        'width': 1024,
+        'height': 771,
         'image': ''
       },
       {
@@ -257,52 +264,13 @@ export default {
       }
     ]
   }),
-  created () {
-    let self = this
-
-    for (let project of self.$data.projects) {
-      if (project.images) {
-        project.image = project.images[0]
-        project.index = 0
-      }
-    }
-
-    this.setTimer()
-  },
-  beforeDestroy () {
-    let self = this
-    clearInterval(self.interval)
-  },
-  computed: {
-  },
   methods: {
     filteredProjects: function (section) {
       return this.$data.projects.filter(function (p) {
         return p.type === section
       })
-    },
-    next: function (project, event) {
-      project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
-      project.image = project.images[project.index]
-      this.setTimer()
-    },
-    setTimer: function () {
-      let self = this
-      clearInterval(self.interval)
-      self.interval = setInterval(function () {
-        self.cycleImages()
-      }, 15000)
-    },
-    cycleImages: function () {
-      for (let project of this.$data.projects) {
-        if (project.images) {
-          project.index = project.index === project.images.length - 1 ? 0 : project.index + 1
-          project.image = project.images[project.index]
-        }
-      }
     }
   }
-
 }
 </script>
 
@@ -310,13 +278,6 @@ export default {
 
 .project {
   padding-top: 24px;
-}
-
-.image {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  cursor:pointer;
 }
 
 .browser-undefined {
