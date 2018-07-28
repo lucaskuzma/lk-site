@@ -1,5 +1,4 @@
 <template>
-    <!-- <img :class="'image ' + project.device + '-' + project.orientation" :src="'static/img/' + project.image" v-on:click="next(project)"/> -->
   <img :class="'image ' + device + '-' + orientation" :src="'static/img/' + image" v-on:click="next()"/>
 </template>
 
@@ -7,13 +6,18 @@
 export default {
   props: ['images', 'device', 'orientation'],
   data: () => ({
-    image: undefined
+    image: undefined,
+    index: 0
   }),
   created () {
     let self = this
     self.index = 0
     self.image = this.$props.images[self.index]
     this.setTimer()
+  },
+  updated () {
+    let self = this
+    self.image = this.$props.images[self.index]
   },
   beforeDestroy () {
     let self = this
