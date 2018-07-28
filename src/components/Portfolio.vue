@@ -14,7 +14,7 @@
     <div v-if="projects && projects.length">
       <div class="project" v-for="project of projects" :key="project.id">
 
-        <p class="name title">{{ project.name }}<span class="agency title">Agency: {{ project.agency }}</span></p>
+        <p class="name title clearfix">{{ project.name }}<span class="agency title">Agency: {{ project.agency }}</span></p>
 
         <p class="details">{{ project.details }}</p>
 
@@ -49,4 +49,5 @@ export default {
 .details {
   text-align:justify;
 }
+
 </style>

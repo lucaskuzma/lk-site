@@ -34,6 +34,12 @@ a {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /** Mobile **/
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
