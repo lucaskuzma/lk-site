@@ -5,7 +5,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "landscape",
-    "details": "Inspired by the oil can delays of the 60s, Soup brings you a virtual fluid that you can record onto, slosh around, and play back from. You can use it as a unique delay effect or more like a granular synthesizer, concocting your own wholly novel sounds.",
+    "details": "Inspired by the oil can delays of the 60s, Soup brings you a virtual fluid that you can record onto, slosh around, and play back from. You can use it as a unique delay effect or more like a granular synthesizer, concocting your own wholly novel sounds. Responsible for concept, design, and development.",
     "images": [
       "soup_1.jpg",
       "soup_2.jpg",
@@ -20,7 +20,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "landscape",
-    "details": "Internal merchandising tool facilitating communication between brand managers, district managers, and store employees. Utilizes custom schemaless local storage for brand content, provides employees a floor layout sketch tool, a photo management tool, and inter-user communications.",
+    "details": "Internal merchandising tool facilitating communication between brand managers, district managers, and store employees. Utilizes custom schemaless local storage for brand content, provides employees a floor layout sketch tool, a photo management tool, and inter-user communications. Lead developer managing a team of 4 additional developers.",
     "images": [
       "vs_a.jpg",
       "vs_b.jpg",
@@ -35,7 +35,7 @@
     "type": "mobile",
     "device": "phone",
     "orientation": "portrait",
-    "details": "Mapping and navigation tool allowing users to find and navigate to nearby hydrogen fueling stations. Utilizes a custom station API along with Apple and Google mapping APIs. Relies on React Native to be fully cross-platform.",
+    "details": "Mapping and navigation tool allowing users to find and navigate to nearby hydrogen fueling stations. Utilizes a custom station API along with Apple and Google mapping APIs. Relies on React Native to be fully cross-platform. Handled all programming.",
     "images": [
       "tz_a.jpg",
       "tz_b.jpg",
@@ -50,7 +50,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "portrait",
-    "details": "Disney iPad app with real-time lip-sync. Dialog audio files were broken down into their constituent phonemes, and these were used to automatically control the mask animation. Utilizes custom OpenGL mesh morphing system. Because the morphing is rendered on the fly, the mask can be animated in response to user touches, even while speaking.",
+    "details": "Disney iPad app with real-time lip-sync. Dialog audio files were broken down into their constituent phonemes, and these were used to automatically control the mask animation. Utilizes custom OpenGL mesh morphing system. Because the morphing is rendered on the fly, the mask can be animated in response to user touches, even while speaking. Responsible for all 3d programming, audio analysis, and synch engine.",
     "images": [
       "dis_a.jpg",
       "dis_b.jpg"
@@ -62,7 +62,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "portrait",
-    "details": "Native finger twister game for iPad. Hold a finger on each hungry Blob as it appears until it has fed enough and disappears happily. Let go too soon and the Blob will die. Fully custom Quartz programming.",
+    "details": "Native finger twister game for iPad. Hold a finger on each hungry Blob as it appears until it has fed enough and disappears happily. Let go too soon and the Blob will die. Fully custom Quartz programming. Co-responsible for concept and development consulting.",
     "images": [
       "bite-me-1.jpg",
       "bite-me-2.jpg",
@@ -77,7 +77,7 @@
     "type": "mobile",
     "device": "phone",
     "orientation": "portrait",
-    "details": "HyperSpace uses a unique algorithm to generate endless mesmerizing images from sound. It works similarly to a harmonograph, but uses its 3 voice oscillators to create images. Uses OpenGL and custom audio programming.",
+    "details": "HyperSpace uses a unique algorithm to generate endless mesmerizing images from sound. It works similarly to a harmonograph, but uses its 3 voice oscillators to create images. Uses OpenGL and custom audio programming. Handled all design and development tasks.",
     "images": [
       "hyperspace_a.jpg",
       "hyperspace_b.jpg",
@@ -92,7 +92,7 @@
     "type": "mobile",
     "device": "phone",
     "orientation": "portrait",
-    "details": "A group listening application to help showcase Muzik connected headphones. Any app user can DJ using a Spotify playlist, and others can join the stream as it plays. The app is native Swift with some C audio analysis for the interactive sound visualizer component. It relies on the Spotify SDK as well as PubNub and Branch.",
+    "details": "A group listening application to help showcase Muzik connected headphones. Any app user can DJ using a Spotify playlist, and others can join the stream as it plays. The app is native Swift with some C audio analysis for the interactive sound visualizer component. It relies on the Spotify SDK as well as PubNub and Branch. Responsible for some native UIKit development, audio analysis, and visualization.",
     "images": [
       "listen_a.jpg",
       "listen_b.jpg",
@@ -107,7 +107,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "portrait",
-    "details": "Prototype iPad app for an interactive video system. The viewer’s gaze is used to control a branching video narrative. Relies on the Visage eye tracking SDK. Interactively controls video playback.",
+    "details": "Prototype iPad app for an interactive video system. The viewer’s gaze is used to control a branching video narrative. Relies on the Visage eye tracking SDK. Interactively controls video playback. Co-developed concept and oversaw development team.",
     "images": [
       "telepathic-a.jpg",
       "telepathic-b.jpg"
@@ -119,7 +119,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "portrait",
-    "details": "Donut lets you record loops in two dimensions. You can use it like a phrase looper, by recording horizontally while using the step controls to step through vertical recording position. You can record and playback at completely differently speeds. You can even record backwards! You can record and playback diagonally across the Donut surface, creating glitchy staccato sounds. You can record and playback with multiple heads, recording or playing multiple positions at once.",
+    "details": "Donut lets you record loops in two dimensions. You can use it like a phrase looper, by recording horizontally while using the step controls to step through vertical recording position. You can record and playback at completely differently speeds. You can even record backwards! You can record and playback diagonally across the Donut surface, creating glitchy staccato sounds. You can record and playback with multiple heads, recording or playing multiple positions at once. Responsible for all concept, design, and development.",
     "images": [
       "donut_1.jpg",
       "donut_2.jpg"
@@ -131,7 +131,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "landscape",
-    "details": "A physics-based fluid simulation drives an additive synthesizer, controlling a fat stack of up to 24 oscillators. The multitouch interface lets you control the fluid with your fingers, exciting the oscillators like strings on a liquid harp.",
+    "details": "A physics-based fluid simulation drives an additive synthesizer, controlling a fat stack of up to 24 oscillators. The multitouch interface lets you control the fluid with your fingers, exciting the oscillators like strings on a liquid harp. Responsible for all concept, design, and development.",
     "images": [
       "cp1919_a.jpg",
       "cp1919_b.jpg"
@@ -143,7 +143,7 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "landscape",
-    "details": "Two-oscillator additive polysynth featuring the unique ability to draw oscillators with touch. Includes a low frequency modulator, arpeggiator, and echo effect. A zoomable keyboard with waveform visualizer complete the ensemble.",
+    "details": "Two-oscillator additive polysynth featuring the unique ability to draw oscillators with touch. Includes a low frequency modulator, arpeggiator, and echo effect. A zoomable keyboard with waveform visualizer complete the ensemble. Responsible for all concept, design, and development.",
     "images": [
       "space.jpg"
     ]
