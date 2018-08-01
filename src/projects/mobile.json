@@ -131,10 +131,21 @@
     "type": "mobile",
     "device": "tablet",
     "orientation": "landscape",
-    "details": "A physics-based fluid simulation drives an additive synthesizer, controlling a fat stack of up to 24 oscillators. The multitouch interface lets you control the fluid with your fingers, exciting the oscillators like strings on a liquid harp. ",
+    "details": "A physics-based fluid simulation drives an additive synthesizer, controlling a fat stack of up to 24 oscillators. The multitouch interface lets you control the fluid with your fingers, exciting the oscillators like strings on a liquid harp.",
     "images": [
       "cp1919_a.jpg",
       "cp1919_b.jpg"
+    ]
+  },
+  {
+    "name": "Space",
+    "agency": "The Strange Agency",
+    "type": "mobile",
+    "device": "tablet",
+    "orientation": "landscape",
+    "details": "Two-oscillator additive polysynth featuring the unique ability to draw oscillators with touch. Includes a low frequency modulator, arpeggiator, and echo effect. A zoomable keyboard with waveform visualizer complete the ensemble.",
+    "images": [
+      "space.jpg"
     ]
   }
 ]
