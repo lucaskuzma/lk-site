@@ -1,5 +1,30 @@
 [
   {
+    "name": "Tempur-Pedic",
+    "agency": "theLab",
+    "type": "web",
+    "device": "browser",
+    "details": "Highly-trafficked, feature-rich e-commerce site. Maintained and expanded the React front-end, adding advanced checkout options, like split-pay, with heavy back-end, ERP, and payment processor integrations. Added numerous enhancements and integrations to the Django and Oscar e-commerce server.",
+    "images": [
+      "tempur-1.jpg",
+      "tempur-2.jpg",
+      "tempur-3.jpg"
+    ]
+  },
+  {
+    "name": "DevaCurl",
+    "agency": "theLab",
+    "type": "web",
+    "device": "browser",
+    "details": "Commerce and brand site for DevaCurl. Architected and executed advanced Shopify integrations, managing the user journey from authentication to checkout via a back-end Django to Shopify connection. Created workflows for version-controlled theming, staging migrations, and catalog import and export.",
+    "images": [
+      "deva-1.jpg",
+      "deva-2.jpg",
+      "deva-3.jpg",
+      "deva-4.jpg"
+    ]
+  },
+  {
     "name": "EZ Tax 101",
     "agency": "The Strange Agency",
     "type": "web",
@@ -49,6 +74,18 @@
     ]
   },
   {
+    "name": "Tempur-Pedic Toppers",
+    "agency": "theLab",
+    "type": "web",
+    "device": "browser",
+    "details": "Best-of-class, feature-rich e-commerce site. Maintained and expanded the React front-end. Added numerous enhancements to the the Django and Oscar e-commerce server. Created and maintained integrations with banks, payment processors, and ERP systems.",
+    "images": [
+      "toppers-1.jpg",
+      "toppers-2.jpg",
+      "toppers-3.jpg"
+    ]
+  },
+  {
     "name": "Palladium Boots",
     "agency": "The Strange Agency",
     "type": "web",
@@ -58,6 +95,18 @@
       "pb-1.jpeg",
       "pb-2.jpeg",
       "pb-3.jpeg"
+    ]
+  },
+  {
+    "name": "Tempur-Pedic Pillows",
+    "agency": "theLab",
+    "type": "web",
+    "device": "browser",
+    "details": "Highly-trafficked, feature-rich e-commerce site. Maintained and expanded the React front-end, adding advanced checkout options, like split-pay, with heavy back-end, ERP, and payment processor integrations. Added numerous enhancements and integrations to the Django and Oscar e-commerce server.",
+    "images": [
+      "pillows-1.jpg",
+      "pillows-2.jpg",
+      "pillows-3.jpg"
     ]
   },
   {

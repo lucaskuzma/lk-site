@@ -18,8 +18,8 @@ export default {
 
 p {
   font-family: 'Josefin Slab', serif;
-  font-size: 28px;
-  line-height: 42px;
+  font-size: 24px;
+  line-height: 36px;
   padding-left: 5%;
   padding-right: 5%;
 }

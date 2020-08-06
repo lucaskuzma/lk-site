@@ -1,5 +1,20 @@
 [
   {
+    "name": "Jambl",
+    "agency": "The Strange Agency",
+    "type": "mobile",
+    "device": "phone",
+    "orientation": "portrait",
+    "details": "Heavily-trafficked music creation app, with rich community and gamification features. Consulting in a CTO capacity, creating engineering workflows, developing continuous integration and delivery, architecting and developing iOS Swift components and Django back-end infrastructure with legacy Firebase integrations.",
+    "images": [
+      "jambl_a.jpg",
+      "jambl_b.jpg",
+      "jambl_c.jpg",
+      "jambl_d.jpg",
+      "jambl_e.jpg"
+    ]
+  },
+  {
     "name": "Soup",
     "agency": "The Strange Agency",
     "type": "mobile",
