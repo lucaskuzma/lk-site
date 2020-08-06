@@ -4,11 +4,11 @@
       <p>Lucas Kuzma is a programmer and technical lead with over 25 years of experience designing and developing for <router-link to="/web">web</router-link> and <router-link to="/mobile">mobile</router-link>.</p>
 
       <p>
-        <a title="Twitter" href="https://twitter.com/kuzmalucas"><img src="static/img/icon-twitter.svg"/></a>
-        <a title="Instagram" href="https://instagram.com/lucaskuzma"><img src="static/img/icon-instagram.svg"/></a>
-        <a title="GitHub" href="https://github.com/lucaskuzma"><img src="static/img/icon-github.svg"/></a>
         <a title="LinkedIn" href="https://www.linkedin.com/in/lucaskuzma/"><img src="static/img/icon-linkedin.svg"/></a>
         <a title="Resume" href="http://lucaskuzma.github.io/docs/cv/kuzma.html"><img src="static/img/icon-cv.svg"/></a>
+        <a title="Twitter" href="https://twitter.com/kuzmalucas"><img src="static/img/icon-twitter.svg"/></a>
+        <a title="GitHub" href="https://github.com/lucaskuzma"><img src="static/img/icon-github.svg"/></a>
+        <a title="Instagram" href="https://instagram.com/lucaskuzma"><img src="static/img/icon-instagram.svg"/></a>
       </p>
 
       <section v-if="!skills" v-on:click="skills = !skills"><p><a>[skills]</a></p></section>
