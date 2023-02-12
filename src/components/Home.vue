@@ -8,7 +8,7 @@
         <a title="Resume" href="http://lucaskuzma.github.io/docs/cv/kuzma.html"><img src="static/img/icon-cv.svg"/></a>
         <a title="Twitter" href="https://twitter.com/kuzmalucas"><img src="static/img/icon-twitter.svg"/></a>
         <a title="GitHub" href="https://github.com/lucaskuzma"><img src="static/img/icon-github.svg"/></a>
-        <a title="Instagram" href="https://instagram.com/lucaskuzma"><img src="static/img/icon-instagram.svg"/></a>
+        <a title="Instagram" href="https://instagram.com/the.strange.agency"><img src="static/img/icon-instagram.svg"/></a>
       </p>
 
       <section v-if="!skills" v-on:click="skills = !skills"><p><a>[skills]</a></p></section>
